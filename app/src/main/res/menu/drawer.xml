@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+<item
+    android:id="@+id/profile"
+    android:title="Profile">
+
+</item>
+    <item
+        android:id="@+id/medicineList"
+        android:title="Medicines List">
+
+
+    </item>
+    </group>
+    <group
+        android:menuCategory="container">
+        <item
+            android:id="@+id/aboutus"
+            android:title="About Mediture"></item>
+        <item
+            android:id="@+id/contactus"
+            android:title="Contact Us"></item>
+    </group>
+</menu>

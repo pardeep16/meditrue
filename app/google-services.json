@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "450491460455",
+    "firebase_url": "https://meditrue-b5be3.firebaseio.com",
+    "project_id": "meditrue-b5be3",
+    "storage_bucket": "meditrue-b5be3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450491460455:android:0a26a37285dc0784",
+        "android_client_info": {
+          "package_name": "in.ideveloper.meditrue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450491460455-3civo8ei8hu0gtij81j1dprci6ahp3i9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.ideveloper.meditrue",
+            "certificate_hash": "933EE262F78955C1585EAB39593A9FF659B8C82B"
+          }
+        },
+        {
+          "client_id": "450491460455-616b959gga2d7qouuufb3diod4up2rru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2ry5_obg5VlKVGDa_J7AfC4YV-j1d0wg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450491460455-616b959gga2d7qouuufb3diod4up2rru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

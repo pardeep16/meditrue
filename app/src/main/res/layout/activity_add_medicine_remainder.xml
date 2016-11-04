@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:background="@color/Red"
+            android:layout_width="fill_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+            <Button
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/ic_previous"
+                android:id="@+id/backButton"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="Add Medicine"
+                android:textSize="24sp"
+                android:textColor="@android:color/white"
+                android:layout_gravity="center"/>
+
+        </FrameLayout>
+    </LinearLayout>
+    <ScrollView
+    xmlns:com.beardedhen.bootstrapbutton="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/title" />
+        <!--<EditText android:id="@+id/title"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--/>-->
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="e.g crocin"
+            android:gravity="left"
+            />
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Comments" />
+        <!--<EditText android:id="@+id/body" android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:minLines="5"-->
+        <!--android:scrollbars="vertical" -->
+        <!--android:gravity="top" />-->
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/body"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:lines="5"
+            android:hint="Any Description"
+
+            android:gravity="top"
+
+            />
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/date" />
+        <Button
+            android:id="@+id/reminder_date"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_width="fill_parent"
+            />
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/time" />
+        <Button
+            android:id="@+id/reminder_time"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_width="fill_parent"
+            />
+
+        <!--<Button android:id="@+id/confirm" -->
+        <!--android:text="@string/confirm"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/confirm"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:text="@string/confirm"
+            android:textSize="16sp"
+            com.beardedhen.bootstrapbutton:bb_icon_left="fa-check"
+            com.beardedhen.bootstrapbutton:bb_type="success"
+            />
+    </LinearLayout>
+</ScrollView>
+    </LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="accent">#FF4081</color>
+    <color name="Red">#FF2010</color>
+    <color name="color1">#66ffb2</color>
+    <color name="pinklight">#faceff</color>
+    <color name="gcolor">#f2f2f2</color>
+    <color name="g1color">#c0c0c0</color>
+    <color name="colo">#0fc0fc</color>
+    <color name="LightBlue">#30A9F4</color>
+    <color name="Teal">#009688</color>
+    <color name="white">#ffffffff</color>
+    <color name="darkwhite">#ffeeeeee</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="semitransparent">#88000000</color>
+    <color name="orange">#ffff8800</color>
+    <color name="light_orange">#ffe27d18</color>
+    <color name="light_blue">#ff00a2e8</color>
+    <color name="black">#ff000000</color>
+    <color name="menuButtonColor">#ffea8e44</color>
+</resources>

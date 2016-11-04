@@ -1,0 +1,127 @@
+<android.support.design.widget.CoordinatorLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0"
+    tools:context="developer.pardeep.workin.UploadFileViewActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linearLayoutUploadFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <FrameLayout
+                android:background="@color/Red"
+                android:layout_width="fill_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+                <Button
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/ic_previous"
+                    android:id="@+id/backButton"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:text="Upload Records"
+                    android:textSize="24sp"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center"/>
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewNoFileSelect"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:text="No File is choosen yet\nUpload your Health Record!"/>
+
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/bottomlinearspace"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="40dp">
+
+        </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottomlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+         >
+
+        <Button
+            android:id="@+id/captureButton"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:background="@color/Red"
+            android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:onClick="onSaveButtonClick"
+            android:text="Camera"/>
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"/>
+        <Button
+            android:id="@+id/galleryButton"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            android:background="@color/Red"
+            android:layout_weight="1"
+            android:onClick="onCancelButtonClick"
+            android:text="Gallery"/>
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingButtonUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_check"
+        cardview:backgroundTint="@color/Red"></android.support.design.widget.FloatingActionButton>
+
+</RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
